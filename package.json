@@ -1,0 +1,26 @@
+{
+  "name": "iamsecure",
+  "version": "0.1.0",
+  "description": "IAMSecure allows for a modular security check system over AWS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node index.js"
+  },
+  "author": "Lev Zimin",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.887.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "p-limit": "^7.1.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.1.2",
+    "jest": "^30.1.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
