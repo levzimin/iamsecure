@@ -6,7 +6,7 @@ This repository contains a simple solution for the AWS IAM Security Assessment t
 
 - Simplu ran the AWS CLI to list all IAM users and wrote the output to `outputs/task1-list-users.json`.
 - Result file: `outputs/task1-list-users.json`
-- To run this again use the command below with your credentials
+- To run this again use the command below with your credentials (make sure you have awscli installed and the output folder created)
 
 #### Command used
 
